@@ -5,7 +5,7 @@ const states = document.querySelector('#states');
 async function renderState() {
     try {
         const response = await axios.get(`https://covid19-brazil-api.now.sh/api/report/v1/brazil/uf/${states.value}`);
-        console.log(response.data);
+        //console.log(response.data);
 
         const state = response.data.state;
         const cases = response.data.cases;
