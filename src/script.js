@@ -30,6 +30,8 @@ async function renderState() {
 }
 
 button.addEventListener('click', (e) => {
+    divResult.innerHTML = '';
+    divResult.classList.add('closed');
     e.preventDefault();
 
     renderState();
