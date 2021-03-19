@@ -38,6 +38,22 @@ main form {
     flex-wrap: wrap;
 }
 
+footer {
+    position: absolute;
+    width: 30vw;
+    left: 35vw;
+    right: 35vw;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 45px;
+    margin: 0 10px;
+}
+
 select {
     outline: none;
     padding: 0.5rem;
